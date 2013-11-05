@@ -1,0 +1,41 @@
+{
+  "name": "dcl-icon-button",
+  "description": "DCL Button with icons",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dualjs/dcl-icon-button",
+  "author": {
+    "name": "Mark",
+    "email": "me@jsman.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dualjs/dcl-icon-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dualjs/dcl-icon-button/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dualjs/dcl-icon-button/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/dcl-icon-button.js",
+  "dependencies": {
+    "dual": "*",
+    "dcl-button": "*",
+    "dcl-glyphicon": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-dcl-resources": "0.0.1",
+    "browserify": "~2.x",
+    "grunt-browserify": "1.2.11",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
